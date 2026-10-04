@@ -1,0 +1,19 @@
+{
+  "name": "vibes-sender-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VIBES Video Lab SMTP sender API for Yandex 360",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "nodemailer": "^7.0.6"
+  }
+}

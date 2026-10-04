@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VIBES Video Lab</title>
+</head>
+<body style="margin:0;padding:0;background:#ece3d8;font-family:Arial,Helvetica,sans-serif;color:#211e1a;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background:#ece3d8;">
+<tr><td align="center" style="padding:24px 8px 0;">
+
+<table width="941" cellpadding="0" cellspacing="0" border="0" role="presentation"
+style="width:100%;max-width:941px;background:#f3ede5;">
+
+<tr>
+<td style="padding:30px 54px 28px 54px;background:#f3ede5;border-bottom:1px solid #d8cabc;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+<tr>
+<td style="font-size:16px;font-weight:700;letter-spacing:.14em;color:#211e1a;">
+VIBES VIDEO LAB
+</td>
+<td align="right" style="font-size:10px;line-height:16px;letter-spacing:.12em;color:#7a6e62;">
+<?= isAgency ? "AGENCY PARTNERSHIP" : "PERSONAL BRAND NOTE" ?>
+</td>
+</tr>
+</table>
+
+<div style="font-size:11px;line-height:16px;letter-spacing:.13em;text-transform:uppercase;color:#7a6e62;margin-top:22px;">
+Для команды <?= cfg.company ?>
+</div>
+
+<div style="font-family:Georgia,'Times New Roman',serif;font-size:35px;line-height:41px;font-weight:700;color:#211e1a;margin-top:10px;">
+Здравствуйте, <?= cfg.name ?>.
+</div>
+
+<div style="font-family:Georgia,'Times New Roman',serif;font-size:25px;line-height:32px;font-weight:700;color:#211e1a;margin-top:3px;">
+<?= isAgency
+  ? "Внешняя production-команда для ваших клиентских проектов."
+  : "Визуальный production для " + cfg.company + "."
+?>
+</div>
+
+<div style="font-size:14px;line-height:23px;color:#665b50;margin-top:12px;max-width:760px;">
+<?= cfg.intro ?>
+</div>
+
+<div style="font-size:14px;line-height:22px;color:#211e1a;font-weight:700;margin-top:12px;max-width:760px;">
+<?= cfg.zoomCta ?>
+</div>
+
+<div style="margin-top:18px;">
+<a href="<?= cfg.portfolioUrl ?>"
+style="display:inline-block;background:#211e1a;color:#fff;text-decoration:none;padding:12px 18px;border-radius:999px;font-size:13px;font-weight:700;margin-right:8px;">
+Смотреть кейсы
+</a>
+
+<a href="<?= cfg.proposalUrl ?>"
+style="display:inline-block;background:#e7dccd;color:#211e1a;text-decoration:none;padding:11px 17px;border:1px solid #d1c0ad;border-radius:999px;font-size:13px;font-weight:700;">
+Получить КП
+</a>
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td style="padding:0;margin:0;font-size:0;line-height:0;background:#ece3d8;">
+<a href="<?= cfg.websiteUrl ?>" style="display:block;text-decoration:none;">
+<img src="cid:reference"
+width="941"
+alt="VIBES Video Lab"
+style="display:block;width:100%;max-width:941px;height:auto;border:0;margin:0;padding:0;">
+</a>
+</td>
+</tr>
+
+<tr>
+<td style="padding:24px 54px 30px 54px;background:#f3ede5;border-top:1px solid #d8cabc;">
+
+<div style="font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:27px;font-weight:700;">
+Никита Королёв
+</div>
+
+<div style="font-size:13px;font-weight:700;margin-top:4px;">
+Совладелец · арт-директор
+</div>
+
+<div style="font-size:12px;line-height:20px;color:#776b60;margin-top:9px;">
+Digital-маркетолог 7+ лет: бренды, блогеры, B2B. С нейросетями — 5+ лет.
+</div>
+
+<div style="font-size:12px;line-height:20px;color:#776b60;margin-top:6px;">
+В студии: встречи и бриф, отстаивает креативные цели и KPI клиента, чтобы реклама работала на покупателя.
+</div>
+
+<div style="margin-top:14px;">
+<a href="<?= cfg.telegramUrl ?>"
+style="display:inline-block;background:#211e1a;color:#fff;text-decoration:none;padding:11px 17px;border-radius:999px;font-size:12px;font-weight:700;">
+Написать Никите
+</a>
+</div>
+
+</td>
+</tr>
+
+</table>
+
+</td></tr>
+</table>
+
+</body>
+</html>
